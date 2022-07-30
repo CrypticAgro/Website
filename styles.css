@@ -67,6 +67,7 @@ a{
     justify-content: center;
     padding-left: 8%;
     padding-right: 8%;
+    margin-bottom: 50px;
 }
 .body1title{
     display: flex;
@@ -77,3 +78,90 @@ a{
     margin-bottom: 24px ;
 }
 
+.dog{
+    width: 125px;
+    height: 125px;
+    border: 3px solid #3882f6;
+    border-radius: 5px;
+}
+
+.b1infotext{
+    width: 125px;
+    text-align: center;
+}
+.body1text{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.body2{
+    background-color: lightgray;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 8%;
+}
+
+.song{
+    padding: 10%;
+    padding-bottom: 0%;
+    font-size: 24px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.writer{
+    padding-left: 10%;
+    padding-right:10%;
+    text-align: right;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.body3{
+    padding: 8%;
+    display: flex;
+    justify-content: center;
+}
+
+.body3box{
+    background-color: #3882f6;
+    color: white;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    padding-left: 8%;
+    padding-right: 8%;
+    border-radius: 10px;
+    display: flex;
+    gap: 100px;
+}
+
+.b3header{
+    font-weight: bold;
+    font-size:x-large;
+}
+
+.b3rightside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.b3button{
+    border: 1px solid white;
+    background-color: #3882f6;
+    border-radius: 4px;
+    color: white;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.footer{
+    color: white;
+    background-color: #1f2937;
+    justify-content: center;
+    display: flex;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
